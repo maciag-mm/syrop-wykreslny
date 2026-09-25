@@ -1,0 +1,30 @@
+﻿SYROP WYKREŚLNY 1.06 – przekroje (profile) z trójwymiarowych linii
+Autor: Michał Maciąg
+
+Program działa na Windows 10 i 11 (64-bit). Nie wymaga Pythona, QGIS ani innych programów.
+
+DWA SPOSOBY UŻYCIA
+1. SyropWykreslny_1.06_instalator.exe – instalacja (skrót w menu Start, opcjonalnie na pulpicie,
+   deinstalacja w „Aplikacje”). Nie wymaga uprawnień administratora.
+2. Folder „Wersja bez instalacji\SyropWykreslny” – skopiuj CAŁY folder w dowolne miejsce
+   (dysk, pendrive) i uruchom SyropWykreslny.exe. Najpierw rozpakuj ZIP – nie uruchamiaj
+   programu bezpośrednio z podglądu archiwum.
+
+PLIKI DWG
+Program ma wbudowany konwerter LibreDWG – odczytuje DWG (także z nowych AutoCAD-ów)
+i zapisuje DWG w formacie AutoCAD 2000 (otwiera go każdy AutoCAD, ZWCAD, BricsCAD itd.).
+Jeśli na komputerze jest zainstalowany darmowy ODA File Converter, program użyje go
+automatycznie (zapis w formacie AutoCAD 2018). Nie jest on jednak wymagany.
+
+PIERWSZE URUCHOMIENIE
+Program nie ma podpisu cyfrowego, dlatego Windows może pokazać okno
+„System Windows ochronił ten komputer” – kliknij „Więcej informacji” → „Uruchom mimo to”.
+
+Dziennik błędów: %LOCALAPPDATA%\SyropWykreslny\syrop_wykreslny.log
+
+LICENCJA
+Syrop Wykreślny jest wolnym oprogramowaniem na licencji GNU GPL v3 lub późniejszej
+(plik licencje\LICENSE-GPL-3.0.txt w folderze programu). Program jest dostarczany
+BEZ JAKIEJKOLWIEK GWARANCJI. Licencje użytych komponentów (Qt, PyQt6, GDAL, PROJ,
+LibreDWG, ezdxf, NumPy i in.) są w folderze „licencje” – patrz THIRD_PARTY_LICENSES.md.
+Kod źródłowy: repozytorium projektu na GitHubie.
